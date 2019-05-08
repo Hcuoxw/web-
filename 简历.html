@@ -1,0 +1,363 @@
+<!doctype html>
+<html>
+<head>
+	<html lang="zh-cn">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"+    />
+
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>[简历]杨焕彤-web开发</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/typo.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script>
++        function loading() {
++            document.getElementsByClassName('avatar')[0].style.display = 'block';
++            document.getElementsByClassName('loading')[0].style.display = 'none';
++        }
++    </script>
+</head>
+
+
+<style type="text/css">
+	.me{width: 288px;display: block;line-height: 25.92px;margin-bottom: 1rem;text-align: center;}
+	.nature{display: block;}
+	.name{width: 288px;height: 19.2px;display: block;font-size: 14.4px;line-height: 19.44px;text-align: center;}
+	.info-job{width: 288px;height: 19.2px;display: block;font-size: 14.4px;line-height: 19.44px;text-align: center;}
+	.left{
+		position: absolute;
+    width: 20rem;
+    background: #fff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 5px 20px #bbb;
+    box-sizing: border-box;
+    padding: 1rem;
+    
+     }
+	li {width: 288px;height: 25,6px;display: list-item;text-align: -webkit-match-parent;}
+    .jibenxinxi{width: 288px;;margin-bottom: 1rem;display: block;}
+    .lianxifangshi{width: 288px;;margin-bottom: 1rem;display: block;}
+    .skill{display:block;margin-bottom: 1rem;text-rendering: optimizelegibility;width: 288px;}
+    .erweima{width: 288px;;margin-bottom: 1rem;display: block;}
+    .right{position: relative;
+    margin-left: 22rem;
+    background: #fff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 5px 20px #bbb;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: block;
+    }
+    div{display: inline-block;
+  width:100px;
+  height:100px;
+  
+  position:relative;
+  
+  animation:theanimation 2s infinite alternate;
+}
+@keyframes theanimation{
+  0%{left:0px;}
+  25%{left:30px;}
+  50%{left:60px;}
+  75%{left:120px;}
+  100%{left:240px;}
+}
+
+@keyframes moving{
+  to{
+    background-position: -110% 0;
+  }
+}
+@keyframes up{
+  to{
+    margin-top:-100px;
+  }
+}
+@keyframes rotate{
+  50%{
+    transform: rotate(-15deg);
+  }
+  75%{
+    transform: rotate(20deg);
+  }
+}
+
+
+
+
+
+
+</style>
+
+<header class="header"></header>
+        
+        <article class="container">
+            <section class="left" style="display: block;">
+
+            	 <!-- 左栏固定开关，记得及时删除这段代码 Start-->
+            <label class="switch" style="display: none;" onchange="switchFixed()">
+                <script type="text/javaScript">
++                    function switchFixed(){
++                        var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
++                        document.getElementById('side').style.position = value;
++                    }
++                </script>
+                <input id="cb" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <style>
+                @media (min-width: 414px){
+                    .switch{position:relative;display:inline-block!important;width:60px;height:34px;}
+                    .switch input{display:none;}
+                    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s;}
+                    .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:white;-webkit-transition:.4s;transition:.4s;}
+                    input:checked + .slider{background-color:#1abc9c;}
+                    input:focus + .slider{box-shadow:0 0 1px #1abc9c;}
+                    input:checked + .slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px);}.slider.round{border-radius:34px;}
+                    .slider.round:before{border-radius:50%;}
+                }
+            </style>
+            <!-- 左侧固定开关，记得及时删除这段代码 End-->
+  
+                <!-- 个人肖像 -->
+                <section class="me">
+                    <section class="portrait">
+                        
+                        <!-- 头像照片 -->
+                       <img style="width: 128px; height: 128px; border-radius: 50%;" src="img/5.jpg" onload="loading()">
+                   </section> 
+
+                   <h4 class="name" style="font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;">杨焕彤</h4>
+
+                    <h4 class="info-job" style="font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;font-size: 0.8em" >数字媒体技术/ 2班</h4>
+                       <style type="text/css">
+                
+            </style>
+
+
+
+  
+                   
+<body>
+  
+                </section>
+    <header class="header"></header>
+
+
+ 
+           
+                
+               
+           <!-- 基本信息 -->
+
+
+            <section class="jibenxinxi">
+                <h2>
+                    <img src="img/我的.svg" alt="Amazing line art of a scone" style="width: 1.3rem;height: 1.3rem;"> <span style="font-size: 0.8em;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;font-size: 0.8em">基本信息</span> </h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label style="width: 100.8px;height: 25.6px;display: inline-block;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;font-size: 0.8em">个人信息</label>
+                        <span>杨焕彤 / 女 / 18.6岁</span>
+                    </li>
+                   
+                    <li>
+                        <label style="width: 100.8px;height: 25.6px;display: inline-block;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;font-size: 0.8em;">普通话水平</label>
+                        <span>二级甲等</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="lianxifangshi">
+                <h2>
+                    <img src="img/聊天.svg" alt="Amazing line art of a scone" style="width: 1.3rem;height: 1.3rem;display: inline-block;margin-right: 0.5rem;"><span style="font-size: 0.8em;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;">联系方式</span></h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label style="width: 100.8px;height: 25.6px;display: inline-block;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;cursor: default;font-size: 0.8em">手机</label>
+                        <a style="color: pink;font-size: 0.8em;cursor: pointer;font-family:Microsoft Yahei;" href="tel:13432482019" target="_blank">134-3248-2019</a>
+                    </li>
+
+                    <li>
+                        <label style="width: 100.8px;height: 25.6px;display: inline-block;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;font-size: 0.8em">邮箱</label>
+                        <a style="color: pink;font-size: 0.8em;cursor: pointer;font-family:Microsoft Yahei;" href="mailto:ze.zh@hotmail.com" target="_blank">1448640673@qq.com</a>
+                    </li>
+
+                    <li>
+                        <label style="width: 100.8px;height: 25.6px;display: inline-block;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;font-size: 0.8em">个人主页</label>
+                        <a style="color: pink;font-size: 0.8em;cursor: pointer;font-family:Microsoft Yahei;" href="http://0b11111110.com/" target="_blank">0b11111110.com/</a>
+                    </li>
+
+                    <li>
+                        <label style="width: 100.8px;height: 25.6px;display: inline-block;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;font-size: 0.8em">Github</label>
+                        <a style="color: pink;font-size: 0.8em;cursor: pointer;font-family:Microsoft Yahei;" href="https://github.com/0b11111110" target="_blank">github.com/Hcuoxw</a>
+                    </li>
+                </ul>
+
+            </section>
+
+
+            <!-- 技能点--> 
+            <section class="skill">
+
+                <h2>
+                    <i> <img src="img/音乐.svg" alt="Amazing line art of a scone" style="width: 1.3rem;height: 1.3rem;display: inline-block;"></i>
+                    <span style="font-size: 0.8em;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;">技能点</span>
+                </h2>
+                <hr/>
+                <ul>
+                    <li style="display: list-item;text-align: -webkit-match-parent;">
+                        <label style="width: 100.8px;height: 25.6px;display: inline-block;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;font-size: 0.8em">HTML</label>
+                        <progress value="50" max="100"></progress>
+                    </li>
+                    <li>
+                        <label style="width: 100.8px;height: 25.6px;display: inline-block;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;font-size: 0.8em">CSS</label>
+                        <progress value="50" max="100"></progress>
+                    </li>
+                    <li>
+                        <label style="width: 100.8px;height: 25.6px;display: inline-block;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;font-size: 0.8em">JavaScript</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label style="width: 100.8px;height: 25.6px;display: inline-block;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;font-size: 0.8em">React</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label style="width: 100.8px;height: 25.6px;display: inline-block;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;font-size: 0.8em">Node.js</label>
+                        <progress value="70" max="90"></progress>
+                    </li>
+                    <li>
+                        <label style="width: 100.8px;height: 25.6px;display: inline-block;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;font-size: 0.8em">小程序</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                </ul>
+            </section>
+
+             <section class="erweima">
+                <h2>
+                    <img src="img/搜索.svg" alt="Amazing line art of a scone" style="width: 1.3rem;height: 1.3rem;display: inline-block;margin-right: 0.5rem;"><span style="font-size: 0.8em;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;">二维码</span></h2>
+                <hr/>
+                <ul>
+           
+            <!-- 技术栈 -->            <!-- <div class="stack info-unit">
+                     <h2><i class="fa fa-code" aria-hidden="true"></i>其他</h2>
+                     <hr/>
+                     <ul>
+@@ -116,168 +178,225 @@
+                         </li>
+                     </ul>
+                 </div> -->
+            </section>
+        </section>
+  
+            <section class="right">
+        <section>
+  
+                <!-- 教育经历 -->
+                <section class="edu info-unit">
+                    <h2><img src="img/记录.svg" alt="Amazing line art of a scone" style="width: 1.3rem;height: 1.3rem;display: inline-block;"></i>
+                    <span style="font-size: 1em;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;">教育经历</span></h2>
+                    <hr/>
+                    <ul>
+                        <li>
+                            <h3><span style="font-size: 0.9em;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;">中山大学南方学院 - 数字媒体技术专业（本科）</span><time style="font-size: 0.9em;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;">2018.9-2022.7</time></h3>
+                            
+                        </li>
+                       
+                    </ul>
+                </section>
+            <!-- 教育经历 -->
+           <div></div>
+           <div></div>
+  
+               
+            <!-- 自我评价 -->
+            <section class="work info-unit">
+                <h2>
+                    <i><img src="img/粉丝.svg" alt="Amazing line art of a scone" style="width: 1.3rem;height: 1.3rem;display: inline-block;"></i><span style="font-size: 1em;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;">喜欢的语录</span></h2>
+                <hr/>
+                <p>
+                    <span class="mark-txt">东野圭吾《嫌疑人X的献身》——</span>“你我都不可能摆脱时间的束缚，彼此都已沦为社会这个时钟的齿轮。一旦少了齿轮，时钟就会出乱子。纵然自己渴望率性而为，周遭也不容许。我们虽然得到了安定，但失去自由却也是不争的事实。”</p>
+                    <span class="mark-txt">东野圭吾《嫌疑人X的献身》——</span>“这个世上没有无用的齿轮，只有齿轮自身才能决定自己的用途。”</p>
+                     <span class="mark-txt"></span>“时间真的很宝贵啊，我要吃，要玩，要和心爱的人手拉手转圈圈，要和好朋友一醉方休。要和我笃定爱着的，也笃定爱着我的人一起做好多事。时间很宝贵，一秒都不愿浪费给任何让我不爽的人。一秒都不行。 ​​​”</p>
+             </section>
+
+<div></div>
+           <div></div>
+
+
+
+              <!-- 工作经历 -->
+                <section class="edu info-unit">
+                    <h2>
+                    	<i><img src="img/签到.svg" alt="Amazing line art of a scone" style="width: 1.3rem;height: 1.3rem;display: inline-block;"></i>
+                    	<span style="font-size: 1em;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;">工作经历</span></h2>
+                    <hr/>
+                    <ul>
+                        <li>
+                            <h3><span style="font-size: 0.9em;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;">读书读了13年</span><time style="font-size: 0.9em;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;">2006年至今</time></h3>
+                            
+                        </li>
+                       
+                    </ul>
+                </section>
+            <!-- 工作经历 --> 
+<div></div>
+           <div></div>
+
+            <!-- 个人作品 -->
+            <section class="">
+                <h2>
+                    <i><img src="img/奖牌.svg" alt="Amazing line art of a scone" style="width: 1.3rem;height: 1.3rem;display: inline-block;"></i><span style="font-size: 1em;font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;font-weight: 100;color: #000;line-height: 1.35;">个人作品</span></h2>
+                <hr/>
+                <p>[没有]
+                    <span class="mark-txt">“别看了，没有QAQ”——[才怪~哈哈哈适度装哔——]</span></p>
+                   <div> <img src="img/喜欢.svg"></div>
+             </section>
+
+             <!--个人作品-->
+        </article>
+        </section>
+    </article>
+
+
+        
+   
+   
+ </html>
